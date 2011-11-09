@@ -6,6 +6,8 @@ use IPC::Run qw(run);
 use Clone qw(clone);
 use namespace::autoclean;
 
+our $VERSION = '0.01';
+
 has command => (
     is      => 'ro',
     default => 'wkhtmltopdf',
